@@ -12,9 +12,6 @@ use vaterlangen\CardDavBundle\Model\AddressInterface;
 use vaterlangen\CardDavBundle\Model\PersonInterface;
 use vaterlangen\CardDavBundle\Model\PhotoInterface;
 
-use vaterlangen\CardDavBundle\NativePHP\vCard;
-use vaterlangen\CardDavBundle\NativePHP\CardDavClient;
-
 use Symfony\Component\HttpFoundation\File\File;
 
 use Symfony\Component\Intl\Intl;

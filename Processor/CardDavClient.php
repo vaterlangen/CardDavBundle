@@ -1,6 +1,6 @@
 <?php
 
-namespace vaterlangen\CardDavBundle\NativePHP;
+namespace vaterlangen\CardDavBundle\Processor;
 
 use \SimpleXMLElement;
 use \XMLWriter;
