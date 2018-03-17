@@ -1,0 +1,7 @@
+parameters:
+    vaterlangen.carddav.processor.class: vaterlangen\CardDavBundle\Processor\CardDavProcessor
+
+services:
+    vaterlangen_carddav:
+        class: %vaterlangen.carddav.processor.class%
+        arguments: ['@service_container']
